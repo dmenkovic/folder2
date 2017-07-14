@@ -1,2 +1,2 @@
 # folder2
-The Second Folder
+Second Folder
