@@ -3,14 +3,18 @@
 <body>
 <p id="demo"></p>
 <script>
-var input = prompt("koji je znak");
+var znak = ["jarac","vaga","bik","riba","lav","vodolija","škorpija","skorpija","blizanac","devica","ovan","rak","strelac"];
+var input = prompt("koji si horoskopski znak");
+var x = document.getElementById("demo");
+if (input == znak[0] || input == znak[1] || input == znak[2] || input == znak[3] || input == znak[4] || input == znak[5] || input == znak[6] || input == znak[7] || input == znak[8] || input == znak[9] || input == znak[10] || input == znak[11] || input == znak[12]) {
+	
 switch (input) {
 	case input:
-	var x = document.getElementById("demo");
 	x.innerHTML = "danas je "+ input + " super";
     break;
 }
-	
+}else{
+	x.innerHTML = "ovo nije horoskopski znak";}
 </script>
 </body>
 </html>
